@@ -1,0 +1,95 @@
+.hero{
+	width:100%;
+	background-size:cover;
+	background-position:center;
+}	
+
+nav{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding-top:40px;
+	padding-left:10%;
+	padding-right:10%;
+	font-size:33px;
+	font-family:Rockwell Condensed;
+}
+
+.hero nav ul li:hover{
+	transform:scale(1.04);
+}
+
+.logo{
+	color:black;
+	font-size:28px;
+
+	}
+
+span{
+	color:red;
+	}
+
+nav ul li{
+	list-style-type:none;
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+.hero nav ul li:hover{
+	transform:scale(1.04);
+}
+
+nav ul li{
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+}
+nav ul li a:hover{
+	color:red;
+	transition: .3s;
+}
+
+body{
+   background-attachment: fixed;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+ 
+  } 
+a{
+            padding: 10px;
+            border: none;
+            border-radius: 10px;
+ 		color:black;
+            text-decoration: none;
+		border:2px solid red;
+		
+}
+
+p.myclass{
+	font-color:black;
+	font-size:20px;
+	margin: 15px;
+	font-family:Rockwell Condensed;
+}
+
+.dilan{
+width:600px;
+top:140%;
+left:50%;
+transform:translate(-50%,-50%);
+position:absolute;
+border:2px solid white;
+padding-left:20px;
+}
+
+.dilan a{
+	font-size:18px;
+	font-weight:bold;
+	margin:20px 200px;
+	padding:20px 40px;
+	width:50%;
+	border-radius:10px;
+	color:black;
+}
+
+

@@ -1,0 +1,198 @@
+.hero{
+	width:100%;
+	background-size:cover;
+	background-position:center;
+}	
+
+nav{
+	display:flex;
+	justify-content:space-between;
+	padding-top:60px;
+	padding-left:10%;
+	padding-right:15%;
+	font-size:36px;
+	font-family:Rockwell Condensed;
+	text-align:center;
+}
+
+.hero nav ul li:hover{
+	transform:scale(1.04);
+}
+
+.logo{
+	color:white;
+	font-size:40px;
+
+	}
+
+span{
+	color:red;
+	}
+
+.hero nav ul li{
+	list-style-type:none;
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+.hero nav ul li a:hover{
+    color:red;
+}	
+
+.hero nav ul li:hover{
+	transform:scale(1.04);
+    
+}
+
+nav ul li{
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+}
+nav ul li a:hover{
+	color:red;
+	transition: .5s;
+}
+
+.hero nav ul li a{
+            padding: 10px;
+            border: none;
+            border-radius: 10px;
+ 		color:white;
+            text-decoration: none;
+		border:2px solid red;
+		
+}
+
+.han{
+	Width:600px;
+	height:300px;
+	
+	background-image: url("3339154.jpg");
+    background-size: cover;
+	
+	box-shadow:10px 10px;
+	border-radius:25px;
+	margin-right:40px;
+	margin-top:80px;
+	
+}
+
+
+
+.han ul li {
+
+	list-style-type:none;
+}
+
+.han ul li {
+	margin-left:10px;
+	margin-right:40px;
+	margin-top:140px;
+}
+body{
+   background-attachment: fixed;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+ 
+  } 
+
+.han ul li a{
+	 padding: 10px;
+       border: none;
+       border-radius: 10px;
+ 	 color:white;
+       text-decoration: none;
+	 border:2px solid red;
+		
+}
+
+.sec7{
+     width: 100%;
+    height: 700px;
+    background: rgb(62, 59, 59);
+    text-align: center;
+    color: white;
+	margin-top:200px;
+}
+
+
+
+.sec7{
+    padding-top: 100px;
+}
+.sec7 .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  1fr ;
+    grid-column-gap: 2px;
+    grid-template-areas: 
+"a a a a"
+"b c d e"
+"f f f f";
+    
+   
+}
+.num{
+   
+    padding: 20px;
+    border: none;
+    height: 200px;
+}
+.r1{
+    grid-area: a;
+}
+.r2{
+    grid-area: b;
+}
+.r3{
+    grid-area: c;
+
+}
+.r4{
+    grid-area: d;
+}
+.r5{
+    grid-area: e;
+}
+.r6{
+    grid-area: f;
+    padding-top: 160px;
+}
+.r1 .social-link{
+    padding-top: 50px;
+
+}
+.r1 .social-link a{
+    color: gray;
+}
+i{
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+    font-size: 50px;
+    
+}
+.r3 ul {
+    list-style: none;
+}
+.r3 ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+.math {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+   
+     border: 1px solid red;
+}
+.math .itm{
+    grid-column-gap:10px ;
+   
+}
+.r5   a{
+    text-decoration: none;
+    color: white;
+
+
+

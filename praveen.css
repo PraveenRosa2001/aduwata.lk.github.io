@@ -1,0 +1,265 @@
+
+.hero{
+	width:100%;
+	background-size:cover;
+	background-position:center;
+}	
+
+nav{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding-top:40px;
+	padding-left:10%;
+	padding-right:10%;
+	font-size:40px;
+	font-family:Rockwell Condensed;
+}
+
+.hero nav ul li:hover{
+	transform:scale(1.04);
+}
+
+
+.logo{
+	color:white;
+	font-size:35px;
+
+	}
+
+span{
+	color:red;
+	}
+nav ul li{
+	list-style-type:none;
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+nav ul li{
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+}
+.hero nav ul li a:hover{
+	color:red;
+	transition: .3s;
+}
+
+#slider{
+	overflow:hidden;
+	}
+#slider figure{
+	position:relative;
+	width:500%;
+	margin:0;
+	animation:25s slider infinite;
+}
+
+#slider figure img{
+	width:20%;
+	float:left;
+	
+	}
+	.slid{
+		width:500px;
+		margin-left:250px;
+		
+	}
+
+	@keyframes slider{
+		0%{
+			left:0;
+		  }
+		20%{
+			left:0;
+		   }
+		25%{
+			left:-100%;
+		   }
+		45%{
+			left:-100%;
+		   }
+		50%{
+			left:-200%;
+		   }
+		70%{
+			left:-200%;
+		   }
+		75%{
+			left:-300%;
+		   }
+		95%{
+			left:-300%;
+		   }
+		100%{
+			left:-400%;
+		   }
+	}
+
+body{
+   background-attachment: fixed;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+ 
+ 
+   } 
+
+.pot{ width:750px;
+	height:40%;
+	padding:50px;
+	background-color:#D6DBDF ;
+	border-radius:25px;
+	font-size:20px;
+	font-family:Rockwell Condensed;
+	
+}
+
+.hello .pot form  a{
+	border:2px solid rgb(197, 120, 120);
+	border-radius: 10px;
+ 	color:rgb(151, 65, 65);
+      text-decoration: none;
+	 padding: 10px;
+}
+.hero nav ul li a{
+            padding: 10px;
+            border: none;
+            border-radius: 10px;
+ 		color:white;
+            text-decoration: none;
+		border:2px solid red;
+		
+}
+        
+.hello{
+	background-image:url(https://live.staticflickr.com/2630/3753757898_c511890ed1_b.jpg);
+	background-size: 100% 100%;
+	padding:70px 0px;
+	background-repeat: no-repeat;
+}
+
+p{
+	font-size:30px;
+	font-family:Rockwell Condensed;
+	font-color: white;
+}
+
+
+.ruwan{
+	width:400px;
+	top:90%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	position:absolute;
+
+}
+
+.ruwan h1{
+	font-size:40px;
+	text-align:center;
+	text-transform:uppercase;
+	margin:40px 0;
+}
+
+p.myclass{
+	font-color:white;
+	font-size:20px;
+	margin: 15px;
+}
+
+.ruwan button{
+	font-size:18px;
+	font-weight:bold;
+	margin:20px 0;
+	padding:10px 15px;
+	width:50%;
+	border-radius:10px;
+}
+
+.sec7{
+     width: 100%;
+    height: 700px;
+    background: rgb(62, 59, 59);
+    text-align: center;
+    color: white;
+}
+
+
+
+.sec7{
+    padding-top: 100px;
+}
+.sec7 .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  1fr ;
+    grid-column-gap: 2px;
+    grid-template-areas: 
+"a a a a"
+"b c d e"
+"f f f f";
+    
+   
+}
+.num{
+   
+    padding: 20px;
+    border: none;
+    height: 200px;
+}
+.r1{
+    grid-area: a;
+}
+.r2{
+    grid-area: b;
+}
+.r3{
+    grid-area: c;
+
+}
+.r4{
+    grid-area: d;
+}
+.r5{
+    grid-area: e;
+}
+.r6{
+    grid-area: f;
+    padding-top: 160px;
+}
+.r1 .social-link{
+    padding-top: 50px;
+
+}
+.r1 .social-link a{
+    color: white;
+}
+i{
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+    font-size: 50px;
+    
+}
+.r3 ul {
+    list-style: none;
+}
+.r3 ul li a{
+    text-decoration: none;
+    color:white;
+
+}
+.math {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+   
+    border: 1px solid red;
+}
+.math .itm{
+    grid-column-gap:10px ;
+   
+}
+.r5   a{
+    text-decoration: none;
+    color: white;
+}
